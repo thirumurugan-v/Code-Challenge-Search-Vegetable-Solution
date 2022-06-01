@@ -6,6 +6,7 @@ unit.xml
 /dist
 /tmp
 /out-tsc
+/.angular
 
 # dependencies
 /node_modules

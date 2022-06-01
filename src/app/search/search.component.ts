@@ -8,7 +8,7 @@ import { DataService } from '../data.service';
 })
 export class SearchComponent implements OnInit {
 
-  searchForm: FormGroup;
+  searchForm!: FormGroup;
   constructor(private fb: FormBuilder, public service: DataService) { }
 
   ngOnInit() {

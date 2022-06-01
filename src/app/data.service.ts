@@ -1,6 +1,5 @@
 import { Injectable } from '@angular/core';
-import { BehaviorSubject } from 'rxjs/BehaviorSubject';
-import { of } from 'rxjs/observable/of';
+import { BehaviorSubject } from 'rxjs';
 
 @Injectable()
 export class DataService {
